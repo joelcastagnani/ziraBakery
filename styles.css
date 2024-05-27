@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.section1{
+    border: 1px solid black;
+}
+.section2{
+    border: 1px solid black;
+}
+.section3{
+    border: 1px solid black;
+}
+.section4{
+    border: 1px solid black;
+}
+.section5{
+    border: 1px solid black;
+}
+.section6{
+    border: 1px solid black;
+}
+.section7{
+    border: 1px solid black;
+}

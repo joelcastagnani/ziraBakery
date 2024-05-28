@@ -1,20 +1,143 @@
+<!-- sass --watch sass/main.scss css/styles.css -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zira Bakery</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navBar"></nav>
-    <section class="section1">section1</section>
-    <section class="section2">section2</section>
-    <section class="section3">section3</section>
-    <section class="section4">section4</section>
-    <section class="section5">section5</section>
+    <nav class="navBar">
+        <section class="navBar_section">section 1</section>
+        <section class="navBar_section">section 2</section>
+        <section class="navBar_section">section 3</section>
+    </nav>
+
+    <section class="section1">
+        <div class="section1_presentation">
+            <h1 class="section1_presentation_tittle fantasyFont">
+                Zira
+            </h1>
+            <span class="section1_presentation_tittle_bakery amatic-sc-regular">
+                Bakery
+            </span>
+            <p class="section1_presentation_description textFont">En un emprendimiento familiar de Mar del Plata surgio
+                una
+                propuesta distinta.
+                Se trata de un huevo colorido de 12cm que en su interior tiene confites y chocolatines. Con una tierna y
+                original base en forma de conejito.
+            </p>
+        </div>
+        <img src="./img/muffins.png" class="section1_image">
+    </section>
+
+    <section class="section2">
+        <h5 class="section2_tittle amatic-sc-regular">Catalogo</h5>
+        <div class="section2_menu">
+            <div class="section2_menu_button">
+                <img src="./img/icono.png" class="section2_menu_button_img">
+                <p class="section2_menu_button_text textFont">Description</p>
+            </div>
+            <div class="section2_menu_button">
+                <img src="./img/icono.png" class="section2_menu_button_img">
+                <p class="section2_menu_button_text textFont">Description</p>
+            </div>
+            <div class="section2_menu_button">
+                <img src="./img/icono.png" class="section2_menu_button_img">
+                <p class="section2_menu_button_text textFont">Description</p>
+            </div>
+            <div class="section2_menu_button">
+                <img src="./img/icono.png" class="section2_menu_button_img">
+                <p class="section2_menu_button_text textFont">Description</p>
+            </div>
+            <div class="section2_menu_button">
+                <img src="./img/icono.png" class="section2_menu_button_img">
+                <p class="section2_menu_button_text textFont">Description</p>
+            </div>
+            <div class="section2_menu_button">
+                <img src="./img/icono.png" class="section2_menu_button_img">
+                <p class="section2_menu_button_text textFont">Description</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <img src="./img/macarons.png" class="section3_image">
+        <div class="section3_promotion">
+            <span class="section3_promotion_tittle amatic-sc-regular">Novedades</span>
+            <p class="section3_promotion_text textFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,ipsa ipsam commodi esse reiciendis pariatur nemo ratione eos explicabo voluptas.</p>
+            <button class="section3_promotion_button pacifico-regular">Comprar!</button>
+        </div>
+    </section>
+
+    <section class="section4">
+        <nav class="section4_navBar">
+            <button class="section4_navBar_button amatic-sc-regular">button 1</button>
+            <button class="section4_navBar_button amatic-sc-regular">button 2</button>
+            <button class="section4_navBar_button amatic-sc-regular">button 3</button>
+        </nav>
+        <div class="section4_cards">
+            <article class="section4_cards_card">
+                <div class="section4_cards_card_discount pacifico-regular">Discount!</div>
+                <div class="section4_cards_card_alert pacifico-regular">Alert!</div>
+                <img src="./img/foto.JPG" class="section4_cards_card_img">
+                <p class="section4_cards_card_text textFont-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente, ut.</p>
+                <p class="section4_cards_card_price textFont">$1.523,56</p>
+            </article>
+            <article class="section4_cards_card">
+                <div class="section4_cards_card_discount pacifico-regular">Discount!</div>
+                <div class="section4_cards_card_alert pacifico-regular">Alert!</div>
+                <img src="./img/foto.JPG" class="section4_cards_card_img">
+                <p class="section4_cards_card_text textFont-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente, ut.</p>
+                <p class="section4_cards_card_price textFont">$1.523,56</p>
+            </article>
+            <article class="section4_cards_card">
+                <div class="section4_cards_card_discount pacifico-regular">Discount!</div>
+                <div class="section4_cards_card_alert pacifico-regular">Alert!</div>
+                <img src="./img/foto.JPG" class="section4_cards_card_img">
+                <p class="section4_cards_card_text textFont-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente, ut.</p>
+                <p class="section4_cards_card_price textFont">$1.523,56</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section5">
+        <div class="section5_example1">example1</div>
+        <div class="section5_example2">example2</div>
+    </section>
+
     <section class="section6">section6</section>
-    <section class="section7">section7</section>
-    <footer class="footer"></footer>
+
+    <section class="section7">
+        <img src="" alt="" class="section7_img-left">
+        <p class="section7_text">parrafo</p>
+        <img src="" alt="" class="section7_img-right">
+    </section>
+
+    <footer class="footer">footer</footer>
 </body>
+
 </html>

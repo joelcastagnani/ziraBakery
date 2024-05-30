@@ -3,16 +3,15 @@
     padding: 0;
     margin: 0;
 }
-
 html {
     display: flex;
     justify-content: center;
 }
-
 body {
     //border: 2px solid black;
     max-width: 1100px;
     width: 100%;
+    position: relative;
 }
 
 .fantasyFont {
@@ -20,26 +19,21 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
 .amatic-sc-regular {
     font-family: "Amatic SC", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 .textFont {
     font-family: "Comic Neue", cursive;
     font-weight: 400;
     font-style: normal;
 }
-
 .textFont-bold {
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     font-style: normal;
 }
-
-
 .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -49,11 +43,9 @@ body {
 .bi-instagram {
     color: #D43089;
 }
-
 .bi-facebook {
     color: #1877f2;
 }
-
 .bi-whatsapp {
     color: green;
 }
@@ -63,7 +55,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
     background-color: #252525;
     color: white;
 
@@ -97,6 +89,8 @@ body {
     }
 }
 
+
+
 .section1 {
     //border: 1px solid black;
     display: flex;
@@ -104,7 +98,7 @@ body {
     align-items: center;
     height: 300px;
     background-color: #fdc1ba;
-
+    position: relative;
     &_presentation {
         //border: solid 1px black;
         display: flex;
@@ -112,7 +106,7 @@ body {
         align-items: center;
         height: 100%;
         width: 50%;
-
+        position: relative;
         &_tittle {
             font-size: 80px;
             //border: 1px solid black;
@@ -121,14 +115,12 @@ body {
             align-items: center;
             height: 85px;
             margin-top: 25px;
-
-            &_bakery {
-                font-size: 40px;
-                //border: 1px solid black;
-                margin-bottom: 15px;
-            }
         }
-
+        &_bakery {
+            font-size: 40px;
+            //border: 1px solid black;
+            margin-bottom: 15px;
+        }
         &_description {
             border-top: 1px solid black;
             width: 500px;
@@ -139,13 +131,62 @@ body {
             margin-top: .7rem;
         }
     }
-
     &_image {
         //border: solid 1px black;
         height: 89%;
+        position: relative;
+    }
+    &_splash{
+        //border: 1px solid black;
+        width: 110px;
+        height: 55.7px;
+        position: absolute;
+        top: 300px;
+        right: 8px;
+        &_1{
+            background-color: #fdc1ba;
+            position: absolute;
+            width: 100%;
+            height: 40%;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            //border: 1px solid black;
+        }
+        &_2{
+            //border: 1px solid black;
+            background-color: #fdc1ba;
+            position: absolute;
+            right: 24%;
+            top: 22%;
+            width: 25%;
+            height: 22px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        &_3{
+            //border: 1px solid black;
+            background-color: #fdc1ba;
+            position: absolute;
+            right: 44%;
+            top: 27%;
+            width: 40px;
+            height: 22px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        &_4{
+            //border: 1px solid black;
+            background-color: #fdc1ba;
+            position: absolute;
+            right: 55%;
+            top: 47%;
+            width: 10px;
+            height: 30px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
     }
 }
-
 .section2 {
     //border: 1px solid black;
     height: 130px;
@@ -153,7 +194,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     &_tittle {
         //border: 1px solid black;
         font-size: 30px;
@@ -192,7 +232,6 @@ body {
         }
     }
 }
-
 .section3 {
     //border: 1px solid black;
     display: flex;
@@ -200,13 +239,13 @@ body {
     align-items: center;
     height: 190px;
     background-color: #bee6f4;
-
+    position: relative;
     &_promotion {
         //border: 1px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        position: relative;
         &_tittle {
             font-size: 50px;
             //border: 1px solid black;
@@ -235,14 +274,63 @@ body {
             }
         }
     }
-
     &_image {
         //border: 1px solid black;
         width: 500px;
         padding-left: 2rem;
+        position: relative;
+    }
+    &_splash{
+        //border: 1px solid black;
+        width: 110px;
+        height: 58.7px;
+        position: absolute;
+        top: 185px;
+        left: 10px;
+        &_1{
+            background-color: #bee6f4;
+            position: absolute;
+            width: 100%;
+            height: 30%;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            //border: 1px solid black;
+        }
+        &_2{
+            //border: 1px solid black;
+            background-color: #bee6f4;
+            position: absolute;
+            right: 24%;
+            top: 22%;
+            width: 25px;
+            height: 22px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        &_3{
+            //border: 1px solid black;
+            background-color: #bee6f4;
+            position: absolute;
+            right: 44%;
+            top: 27%;
+            width: 40px;
+            height: 22px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        &_4{
+            //border: 1px solid black;
+            background-color: #bee6f4;
+            position: absolute;
+            right: 55%;
+            top: 47%;
+            width: 10px;
+            height: 30px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
     }
 }
-
 .section4 {
     //border: 1px solid black;
     display: flex;
@@ -351,7 +439,6 @@ body {
         }
     }
 }
-
 .section5 {
     //border: 1px solid black;
     height: 250px;
@@ -375,13 +462,11 @@ body {
         background-size: cover;
     }
 }
-
 .section6 {
     border: 1px solid black;
     height: 50px;
     background-color: #A9A9A9;
 }
-
 .section7 {
     height: 80px;
     display: flex;
@@ -402,7 +487,6 @@ body {
         border: 1px solid black;
     }
 }
-
 .footer {
     border: 1px solid black;
     background-color: gray;

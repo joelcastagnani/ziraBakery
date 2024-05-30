@@ -10,7 +10,7 @@ html {
 body {
     //border: 2px solid black;
     max-width: 1100px;
-    width: 100%;
+    width: 100vh;
     position: relative;
 }
 
@@ -96,7 +96,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    // height: 300px;
+    height: 100vh;
     background-color: #fdc1ba;
     position: relative;
     &_presentation {
@@ -104,8 +105,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         height: 100%;
-        width: 50%;
+        max-width: 47%;
         position: relative;
         &_tittle {
             font-size: 80px;
@@ -133,15 +135,17 @@ body {
     }
     &_image {
         //border: solid 1px black;
-        height: 89%;
-        position: relative;
+        max-height: 89%;
+        max-width: 50%;
+        //position: relative;
+        
     }
     &_splash{
         //border: 1px solid black;
         width: 110px;
         height: 55.7px;
         position: absolute;
-        top: 300px;
+        top: 97.5%;
         right: 8px;
         &_1{
             background-color: #fdc1ba;
@@ -189,35 +193,37 @@ body {
 }
 .section2 {
     //border: 1px solid black;
-    height: 130px;
+    height: 100%;
+    max-height: 32vh;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 390px;
     &_tittle {
         //border: 1px solid black;
-        font-size: 30px;
+        font-size: 6vw;
         margin-bottom: 5px;
     }
-
     &_menu {
         //border: 1px solid black;
         display: flex;
         justify-content: space-around;
-        width: 90%;
-
         &_button {
+            width: 32%;
             //border: 1px solid black;
             display: flex;
             flex-direction: column;
             align-items: center;
             border-radius: 10px;
-            padding-left: 7.5px;
-            padding-right: 8px;
-            padding-bottom: 6px;
+            font-size: 80%;
+            // padding-left: 7.5px;
+            // padding-right: 8px;
+            // padding-bottom: 6px;
 
             &_img {
-                width: 50px;
+                width: 70%;
                 //border: 1px solid black;
             }
 
@@ -246,17 +252,19 @@ body {
         flex-direction: column;
         align-items: center;
         position: relative;
+        width: 50%;
+        max-height: 100%;
         &_tittle {
-            font-size: 50px;
+            font-size: 180%;
             //border: 1px solid black;
         }
-
         &_text {
             //border: 1px solid black;
             width: 80%;
             margin-top: 5px;
             margin-bottom: 13px;
             text-align: center;
+            font-size: 75%;
         }
 
         &_button {
@@ -276,7 +284,7 @@ body {
     }
     &_image {
         //border: 1px solid black;
-        width: 500px;
+        width: 50%;
         padding-left: 2rem;
         position: relative;
     }
@@ -337,15 +345,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    //height: ;
 
     &_navBar {
         //border: 1px solid black;
         display: flex;
         justify-content: space-around;
-        width: 40%;
+        width: 100%;
         margin-bottom: 1rem;
-
+        margin-top: 3.2rem;
         &_button {
             font-size: 40px;
             border: none;
@@ -362,18 +370,15 @@ body {
     &_cards {
         //border: 1px solid black;
         display: flex;
-        justify-content: space-around;
-        width: 100%;
-
+        justify-content: space-between;
+        margin-bottom: 1rem;
         &_card {
             //border: 1px solid black;
-            width: 350px;
+            width: 32%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            //border-radius: 30px;
             position: relative;
-            height: 300px;
 
             border-bottom-left-radius: 30px;
             border-bottom-right-radius: 30px;
@@ -463,9 +468,9 @@ body {
     }
 }
 .section6 {
-    border: 1px solid black;
+    //border: 1px solid black;
     height: 50px;
-    background-color: #A9A9A9;
+    background-color: #252525;
 }
 .section7 {
     height: 80px;
@@ -488,6 +493,12 @@ body {
     }
 }
 .footer {
-    border: 1px solid black;
-    background-color: gray;
+    //border: 1px solid black;
+    background-color: #252525;
 }
+
+// @media (min-width: 389px){
+//     body{
+//         max-width: 390px;
+//     }
+// }
